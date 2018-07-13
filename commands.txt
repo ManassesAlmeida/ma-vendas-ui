@@ -1,0 +1,11 @@
+npm install -g @angular/cli
+ng new ma-vendas-ui
+ng generate component navbar
+
+npm start
+ng generate component vendas-listagem
+npm install primeng primeicons --save
+ng generate service vendas/vendas --spec=false
+
+ng generate component venda-cadastro
+npm install ng2-currency-mask --save
